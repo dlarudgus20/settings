@@ -1,4 +1,4 @@
-call plug#begin('~/.vim/plugged')
+call plug#begin(plugpath)
 Plug 'scrooloose/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'majutsushi/tagbar'
