@@ -12,7 +12,6 @@ Plug 'Lokaltog/vim-powerline'
 Plug 'Yggdroot/indentLine'
 call plug#end()
 
-set t_Co=256
 set nocompatible
 set exrc
 set secure
@@ -26,17 +25,13 @@ set shiftwidth=4
 set expandtab
 set autoindent
 set smarttab
-
 set cursorline
-set lazyredraw
 
 set number
 set ruler
 set fileencodings=utf-8
 set backspace=2
 syntax enable
-
-let g:indentLine_color_term=239
 
 let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#bufferline#enabled=1
