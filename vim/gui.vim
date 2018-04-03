@@ -1,3 +1,0 @@
-set cursorcolumn
-colorscheme evening
-
